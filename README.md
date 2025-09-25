@@ -7,3 +7,8 @@
 2.升级软件包:yum -y install centos-release-scl devtoolset-8-gcc*  
 3.启用软件包:echo "source /opt/th/devtoolset-8/enable">>/etc/profile  
 *即每次启动shell的时候会执行/etc/profile脚本*  
+
+#安装库函数帮助文件  
+yum -y install man-pages  
+使用命令: man 级别 命令或函数  
+*可用vi命令查看帮助文档，用q退出*  
